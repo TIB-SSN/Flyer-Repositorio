@@ -103,8 +103,8 @@ button {
 
     selector.addEventListener('change', () => {
       const lang = selector.value;
-      frontImg.src = `temple-flyers/flyers/${lang}_front.jpg`;
-      backImg.src = `temple-flyers/flyers/${lang}_back.jpg`;
+      frontImg.src = `temple-flyers/${lang}_front.jpg`;
+      backImg.src = `temple-flyers/${lang}_back.jpg`;
       card.classList.remove('flipped');
     });
 
